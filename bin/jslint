@@ -13,7 +13,7 @@ else
     js_cmd = 'js'
   end
   runjslint_ext = 'js'
-  plugin_path = File.join(ENV['HOME'], '.vim')
+  plugin_path = File.join(ENV['HOME'], 'vimfiles')
 end
 
 Dir.chdir(File.join(plugin_path, 'ftplugin', 'javascript', 'jslint')) do |dir|
